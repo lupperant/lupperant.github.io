@@ -1,84 +1,44 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Артемий Поздняков",
-    "label": "Go developer",
+    "name": "Татьяна Нефедова",
+    "label": "Не разработчик",
     "image": "https://lh3.googleusercontent.com/drive-viewer/AITFw-yvz4TSq5vyCk6vSIxgCnxVo7KVU5Nx5l93xZvm1FSBXHvMVX2QPiI8CxufG_fHmMdeWOwKaSkLASBxqM4VCt6vV0PP=s1600",
     "picture": "https://lh3.googleusercontent.com/drive-viewer/AITFw-yvz4TSq5vyCk6vSIxgCnxVo7KVU5Nx5l93xZvm1FSBXHvMVX2QPiI8CxufG_fHmMdeWOwKaSkLASBxqM4VCt6vV0PP=s1600",
-    "email": "aapozdnyakove@gmail.com",
-    "phone": "+7 (922) 249-69-44",
-    "url": "http://aapozdnyakove.ru",
-    "summary": "Интересуюсь облачными технологиями и бэкенд-разработкой. Мне доводилось выполнять широкий спектр задач, поэтому для меня разработка - это не просто написание кода, а комплексный процесс, зависящий от слаженной работы команды и корректно настроенных процессов",
+    "email": "непишитемне@gmail.com",
+    "phone": "+7незвонитемне",    
+    "summary": "НЕ Интересуюсь облачными технологиями и бэкенд-разработкой. Мне НЕ доводилось выполнять широкий спектр задач, поэтому для меня разработка - это не просто говно говна, а комплексный щит",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Санкт-Петербург",
+      "city": "Санкт-Кутербург",
       "countryCode": "RU",
       "region": "Россия"
     },
     "profiles": [
       {
         "network": "Github",
-        "username": "aaletov",
-        "url": "https://github.com/aaletov"
-      },
-      {
-        "network": "Gitlab",
-        "username": "aapozd",
-        "url": "https://gitlab.com/aapozd"
-      },
-      {
-        "network": "LinkedIn",
-        "username": "artemy-pozdnyakov-b7972b233",
-        "url": "https://www.linkedin.com/in/artemy-pozdnyakov-b7972b233/"
-      },
+        "username": "lupperant",
+        "url": "https://github.com/lupperant"
+      },  
       {
         "network": "Telegram",
-        "username": "aaletov",
-        "url": "https://t.me/aaletov"
+        "username": "luppero",
+        "url": "https://t.me/luppero"
       }
     ]
   },
   "work": [
     {
-      "name": "Лаборатория Dell Technologies - ВШПИ СПбПУ",
+      "name": "Лаборатория ГОВНА - ВШПИ СПбПУ",
       "location": "Санкт-Петербург",
-      "description": "Лаборатория Dell Technologies - ВШПИ СПбПУ",
-      "position": "Стажёр",
-      "url": "https://dell.com",
-      "startDate": "2022-02-01",
-      "endDate": "2022-08-01",
-      "summary": "Занимался изучением open-source проекта компании Dell - csi-baremetal, CSI-драйвера для kubernetes, предназначенного для управления физическими дисками в кластере. Проводил анализ существующего устройства работы драйвера с целью дальнейшего расширения его функциональности",
-      "highlights": [
-        "Go, Kubernetes, Kind, gRPC",
-        "Выдвинул предложение реализовать поддержку Storage Capacity в проекте для снижения нагрузки на использовавшийся в проекте кастомный планировщик, разработал план реализации задачи, сравнил различные решения"
-      ]
-    },
-    {
-      "name": "Linxdatacenter",
-      "location": "Санкт-Петербург",
-      "description": "Linxdatacenter",
-      "position": "Младший разработчик бэкенда",
-      "url": "https://linx.ru",
-      "startDate": "2022-09-01",
-      "endDate": "2023-06-01",
-      "summary": "Занимался исправлением багов, рефакторингом исходного кода, расширением функциональности существующих модулей, разработкой новых микросервисов, поддержкой документации. Занимался составлением полного перечня доступных для мониторинга данных о стойках в ЦОД",
-      "highlights": [
-        "Go, PostgreSQL, Redis",
-        "Gin, Ginkgo, Jet",
-        "OpenAPI, oapi-codegen, Gitlab CI, JWT, OAuth",
-        "Переработал модуль аутентификации пользователей, устранил дублирование кода в различных функциях ограничения доступа к методам API",
-        "Разработал микросервис для доступа к истории посещения ЦОД",
-        "Реализовал с нуля BDD-тесты для BFF-микросервиса, реализовал обёртку для эффективного написания API-тестов, настроил генерацию отчётов по тестам, настроил интеграцию тестов в Gitlab",
-        "Актуализировал спецификации OpenAPI модулей авторизации, тикетной системы и IaaS, настроил и внедрил генерацию Go-типов по спецификации API",
-        "Переработал скрипт Gitlab CI, позволив унифицировать пайплайн для всех микросервисов клиентского портала",
-        "Участвовал в разработке сервиса, расширяющего функциональность и автоматизирующего действия внутри CRM-системы"
-      ]
-    }
+      "description": "Лаборатория ГОВНА - ВШПИ СПбПУ",
+      "position": "Студент"      
+    }    
   ],
   "education": [
     {
-      "institution": "Санкт-Петербургский политехнический университет им. Петра Великого",
+      "institution": "Санкт-Петербургский политехнический университет им. Петра Великого", 
       "url": "https://www.spbstu.ru/",
       "area": "Программная инженерия",
       "studyType": "Бакалавриат",
@@ -86,16 +46,12 @@
       "endDate": "2024-07-01",
       "score": "4.0",
       "courses": [
-        "Технологии программирования (C++)", 
-        "Объектно-ориентированное программирование (Java)",
-        "Алгоритмы и структуры данных (С++)",
+        "Вычислительная математика (Python)", 
+        "Математические модели (Python)",
+        "Цифровая обработка сигналов (Pythom, Matlab)",
         "Операционные системы (C)",
-        "Системное программное обеспечение GNU/Linux",
-        "Архитектура ЭВМ (ASM)",
-        "Базы данных (C#)",
-        "Введение в машинное обучение (Python)",
-        "Моделирование СМО (Go)"
-      ]
+        "Базы данных (SQL)",
+        "Разработчик прикладного ПО на языке Python(Python)"]
     }
   ],
   "skills": [
