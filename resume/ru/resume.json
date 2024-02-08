@@ -2,12 +2,13 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Татьяна Нефедова",
-    "label": "Не разработчик",
-    "image": "https://lh3.googleusercontent.com/drive-viewer/AITFw-yvz4TSq5vyCk6vSIxgCnxVo7KVU5Nx5l93xZvm1FSBXHvMVX2QPiI8CxufG_fHmMdeWOwKaSkLASBxqM4VCt6vV0PP=s1600",
-    "picture": "https://lh3.googleusercontent.com/drive-viewer/AITFw-yvz4TSq5vyCk6vSIxgCnxVo7KVU5Nx5l93xZvm1FSBXHvMVX2QPiI8CxufG_fHmMdeWOwKaSkLASBxqM4VCt6vV0PP=s1600",
-    "email": "непишитемне@gmail.com",
-    "phone": "+7незвонитемне",    
-    "summary": "НЕ Интересуюсь облачными технологиями и бэкенд-разработкой. Мне НЕ доводилось выполнять широкий спектр задач, поэтому для меня разработка - это не просто говно говна, а комплексный щит",
+    "label": "Стажер аналитик",
+    
+    "image": "https://drive.google.com/file/d/1ogB_Lt6Mzq--9zXecijpYy3pzuDWC1pp/view?usp=sharing=s1600",
+    "picture": "https://drive.google.com/file/d/1ogB_Lt6Mzq--9zXecijpYy3pzuDWC1pp/view?usp=sharing=s1600",
+    "email": "nefedovatata01@gmail.com",
+    "phone": "+79228232595",    
+    "summary": "",
     "location": {
       "address": "",
       "postalCode": "",
@@ -27,15 +28,7 @@
         "url": "https://t.me/luppero"
       }
     ]
-  },
-  "work": [
-    {
-      "name": "Лаборатория ГОВНА - ВШПИ СПбПУ",
-      "location": "Санкт-Петербург",
-      "description": "Лаборатория ГОВНА - ВШПИ СПбПУ",
-      "position": "Студент"      
-    }    
-  ],
+  },  
   "education": [
     {
       "institution": "Санкт-Петербургский политехнический университет им. Петра Великого", 
@@ -44,7 +37,7 @@
       "studyType": "Бакалавриат",
       "startDate": "2020-09-01",
       "endDate": "2024-07-01",
-      "score": "4.0",
+      "score": "4.4",
       "courses": [
         "Вычислительная математика (Python)", 
         "Математические модели (Python)",
@@ -56,46 +49,19 @@
   ],
   "skills": [
     {
-      "name": "Back-end development",
-      "level": "Master",
+      "name": "Math",
       "keywords": [
-        "Microservices",
-        "REST",
-        "OpenAPI",
-        "gRPC",
-        "JWT",
-        "OAuth",
-        "Git"
+        "Computational mathematics",
+        "Mathematical optimization",
+        "Mathematical modeling"
       ]
     },
     {
       "name": "Database Management",
-      "level": "Master",
       "keywords": [
         "SQL",
         "PostgreSQL",
-        "NoSQL",
-        "MongoDB",
-        "Redis"
-      ]
-    },
-    {
-      "name": "Testing",
-      "level": "Intermediate",
-      "keywords": [
-        "TDD",
-        "BDD",
-        "Unit testing"
-      ]
-    },
-    {
-      "name": "Teamwork",
-      "level": "Intermediate",
-      "keywords": [
-        "Agile",
-        "Scrum",
-        "Confluence",
-        "Redmine"
+        "Microsoft SQL Server"
       ]
     },
     {
@@ -103,8 +69,8 @@
       "keywords": [
         "C++",
         "Python",
-        "Go",
-        "Bash"
+        "Matlab",
+        "Java"
       ]
     }
   ],
@@ -120,77 +86,53 @@
   ],
   "projects": [
     {
-      "name": "Моделирование СМО",
-      "description": "Курсовая работа по курсу \"Архитектура программных систем\" в СПбПУ",
+      "name": "Исследование процесса остывания тонкого однородного стержня",
+      "description": "Курсовая работа по курсу \"Вычислительная математика\" в СПбПУ",
       "highlights": [
-        "Спроектировал систему массового обслуживания с заданными параметрами",
-        "Разработал программу для имитационного моделирования СМО с заданными дисциплинами отказа и постановки на обслуживание",
-        "Реализовал REST API сервис на основе разработанной программы",
-        "Разработал фронтенд для приложения с использованием фреймворка React"
+        "В настоящей курсовой работе исследуется уравнение теплопроводности, которое относится к параболическому типу, и с помощью которого математически описывается процесс остывания нагретых тел."        
       ],
       "keywords": [
-        "Система массового обслуживания",
-        "Queueing system",
-        "Имитационное моделирование",
-        "Simulation modeling",
-        "Go",
-        "OpenAPI",
-        "React"
+        "Вычислительная математика",
+        "Python"
       ],
-      "url": "https://github.com/aaletov/go-smo",
-      "startDate": "2022-09-15",
-      "endDate": "2022-11-17",
+      "url": "https://github.com/lupperant/comp-math",
       "type": "coursework"
     },
     {
-      "name": "nats-chat",
-      "description": "Чат, использующий для своей работы только терминал и работающий сервер nats",
+      "name": "Работа по построению зависимости стационарных решений от параметра",
+      "description": "Курсовая работа по курсу \"Математические модели\" в СПбПУ",
       "highlights": [
-        "Разработал систему генерации адресов по публичному ключу с использованием алгоритма двойного хеширования",
-        "Спроектировал API для коммуникации между клиентом и демоном по gRPC поверх unix-сокета",
-        "Реализовал поведенческие тесты на Python с использованием docker-compose"
+        "Посторила зависимость стационарных решений системы от параметра",
+        "Построила графики стационарных решений, выделив устойчивые и неустойчивые положения"
       ],
       "keywords": [
-        "nats",
-        "chat",
-        "cryptography"
+        "Математические модели",
+        "Python"
       ],
-      "url": "https://github.com/aaletov/nats-chat",
-      "startDate": "2022-07-31",
-      "type": "project"
-    },
-    {
-      "name": "Система автоматизации работы больницы",
-      "description": "Курсовая работа по курсу \"Объектно-ориентированное программирование\" в СПбПУ",
-      "highlights": [
-        "Разработал веб-приложение на языке Java, позволяющее автоматировать работу больницы. Бэкенд написан с использованием паттерна MVC и фреймворка Spring, фронтенд использует фреймворк Vaadin"
-      ],
-      "keywords": [
-        "Java",
-        "Spring",
-        "Vaadin",
-        "PostgreSQL"
-      ],
-      "url": "https://github.com/aaletov/spring-cs",
-      "startDate": "2022-02-22",
-      "endDate": "2022-05-28",
+      "url": "https://github.com/lupperant/math-models",
       "type": "coursework"
     },
     {
-      "name": "План реализации Storage Capacity в драйвере csi-baremetal",
-      "url": "https://github.com/dell/csi-baremetal/blob/8085a0a2b61703f6646f68684c31e6cc1c8f815f/docs/proposals/storage-capacity-proposal.md",
-      "type": "contribution",
-      "endDate": "2022-08-01"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Кулинария"
+      "name": "Программа создания цифрового описания нормализованных изображений листьев растений на основе вычисления GLCM – матрицы и параметров Харалика",
+      "description": "Курсовая работа по курсу \"Цифровая обработка сигналов\" в СПбПУ",
+      "highlights": [
+        "Написала алгоритм вычисления GLCM - матрицы и параметров Харалика",
+        "Обучила и протестировала нейронную сеть на датасетах листьев риса и пшеницы"
+      ],
+      "keywords": [
+        "Python",
+        "Matlab",
+        "Нейронные сети"
+      ],
+      "url": "https://github.com/lupperant/digital-signal-processing",
+      "type": "coursework"
     },
     {
-      "name": "Кино"
+      "name": "Лабораторные работы по предмету \"Базы данных\" в СПБПУ",
+      "url": "https://github.com/lupperant/bd-labs",
+      "type": "labs"
     }
-  ],
+  ],  
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
     "version": "v1.0.0",
